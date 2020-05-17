@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body id="{{page.title | downcase | replace: ' ', '-' }}">
+    {% include header.html %}
+    <main>
+      {% include hero.html %}
+
+      <section class="">
+        <div class="grid-row">
+          <div class="column-two-thirds">
+            <p class="medium-text">
+              Navigating higher education systems in unfamiliar countries isn’t easy.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="grid-row no-padding" id="Ahmad">
+        <div class="column-one-whole">
+          <div class="divider"></div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="column-two-thirds">
+          <p>
+            We create networks for  students in similar situations to share ideas, offer support and build a community. Each participant is matched with a mentor who was affected by displacement and is now in a higher education program.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="grid-row quote-wrap">
+        <div class="column-one-half">
+          <img src="/assets/images/case-studies/roula.jpg" alt="Roula">
+        </div>
+        <div class="column-one-half vertical-align">
+          <p>
+            <span class="quote">“The workshop helped me meet new lovely people. People who came in [to the workshop] shared their stories and the circumstances that they have been through so it allows you to look at a situation from different angles.”</span>
+            <br>Roula – student from Syria
+          </p>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="column-one-half vertical-align">
+          <p>
+            Peer-to-peer support can prove to be just as crucial as the core skills and guidance workshops, by providing them with a social base which they can lean on and turn to for support.
+          </p>
+        </div>
+        <div class="column-one-half">
+          <img src="/assets/images/case-studies/partnerships.jpg" alt="Ammar sitting at a desk">
+        </div>
+      </div>
+      <div class="grid-row quote-wrap" id="ammar">
+        <div class="column-one-half">
+          <img src="/assets/images/case-studies/ammar-2.jpg" alt="Ammar sitting at a desk">
+        </div>
+        <div class="column-one-half vertical-align">
+          <p>
+            <span class="quote">“The social relations that develop in the workshop between the students provide psychological support. These relations can open new doors for me in life.”</span>
+            <br>Ammar – student from Syria
+          </p>
+        </div>
+      </div>
+    </section>
+      {% include donate.html %}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

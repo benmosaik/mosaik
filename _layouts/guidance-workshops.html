@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body id="{{page.title | downcase | replace: ' ', '-' }}">
+    {% include header.html %}
+    <main>
+      {% include hero.html %}
+
+      <section>
+        <section class="">
+          <div class="grid-row">
+            <div class="column-two-thirds">
+              <p class="medium-text">
+                Young refugees are often unaware of opportunities for scholarships and struggle to meet the demands of the applications.
+              </p>
+              <p class="medium-text">
+                We estimate that less than 20% of scholarship applications are eligible for review.
+              </p>
+            </div>
+          </div>
+        </section>
+        <div class="grid-row no-padding">
+          <div class="column-one-whole">
+            <div class="divider"></div>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="column-one-half vertical-align">
+            <p>
+              Our workshops, co-designed with youth and their community are delivered with local organisations in Jordan and Lebanon.  Mosaik trains teachers at local organisations to deliver online learning materials and to adapt workshops to their local context and. In June 2019, over 100 local and refugee youth were enrolled in workshops taking place in Beirut and the Bekaa Valley in Lebanon and Amman, Jordan.            </p>
+          </div>
+          <div class="column-one-half">
+            <img src="/assets/images/case-studies/guidance.jpg" alt="Refugees co-designing the course">
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="grid-row quote-wrap" id="Ahmad">
+          <div class="column-one-half">
+            <img src="/assets/images/case-studies/Roula.jpg" alt="Ahmad standing in a field">
+          </div>
+          <div class="column-one-half vertical-align">
+            <p>
+              <span class="quote">“The reason that I was interested in the guidance workshops is because I was confused. I wanted psychology but I wanted to make sure whether it would fit me or not… The person who finds his/her passion can leave a good mark.”</span>
+              <br>Roula – Student from Syria
+            </p>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="column-one-half vertical-align">
+            <p>
+              The workshops are made up of eight half-day sessions that help refugees understanding the different higher education pathways available to them (local, international or online), the skills to evaluate their options, and support in preparing applications. The modular design of online materials means the programme can be easily adapted and scaled to different locations and be led by local civil society organisations.
+            </p>
+          </div>
+          <div class="column-one-half">
+            <img src="/assets/images/case-studies/workshops.jpg" alt="Students working at a computer on a Mosaik guidance tool">
+          </div>
+        </div>
+        <div class="grid-row quote-wrap">
+          <div class="column-one-half">
+            <img src="/assets/images/case-studies/ammar-2.jpg" alt="Hamza standing in a garden">
+          </div>
+          <div class="column-one-half vertical-align">
+            <p>
+              <span class="quote">“The program introduced me to so many scholarships I did not know about. It gave me an understanding of university scholarships and their requirements and the different kinds of education. Now I can plan for applying to university.”</span>
+              <br>Ammar – student from Syria
+            </p>
+          </div>
+        </div>
+      </section>
+      {% include donate.html %}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

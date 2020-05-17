@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body id="homepage" class="campaign">
+    {% include header.html %}
+
+    <main>
+      {% include hero.html %}
+      <section class="why-we-exist">
+        <div class="grid-row">
+          <div class="column-two-thirds">
+            <p class="medium-text">
+              Just <span class="emphasis">3% of refugees can access higher education</span>, compared to 37% of global youth.
+            </p>
+            <p class="medium-text">
+              University lets refugees contribute to local economies, increase their self-sufficiency and help reconstruct the country when they return home.
+            </p>
+          </div>
+          <div class="column-one-third vertical-align">
+            <a href="donate.html" class="donate-button">Donate now</a>
+          </div>
+        </div>
+      </section>
+      {% include divider.html %}
+      <section class="what-we-do">
+        <div class="grid-row heading">
+          <div class="column-one-whole">
+            <h2>How we help</h2>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="column-one-third">
+            <p class="medium-text">
+              Guidance and courses designed with refugees to work for them
+            </p>
+          </div>
+          <div class="column-one-third">
+            <p class="medium-text">
+              Programmes made scalable and accessible using technology
+            </p>
+          </div>
+          <div class="column-one-third">
+            <p class="medium-text">
+              Working with organisations in Jordan and Lebanon
+            </p>
+          </div>
+        </div>
+      </section>
+      {% include divider.html %}
+      <section class="case-studies">
+        <div class="grid-row heading">
+          <div class="column-one-whole">
+            <h2>Student stories</h2>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="column-one-third">
+            <a href="case-studies/english-classes.html">
+              <div class="card">
+                <div class="image"><img src="/assets/images/case-studies/hamza.jpg" alt="Hamza in a garden"></div>
+                <div class="content">
+                  <h3>English classes</h3>
+                  <p>
+                    Hamza explains how essential the Mosaik English proficiency classes are for many students as it’s a requirement for many universities.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="column-one-third">
+            <a href="case-studies/guidance-workshops.html">
+              <div class="card">
+                <div class="image">
+                  <img src="/assets/images/case-studies/Roula.jpg" alt="Ahmad standing outside">
+                </div>
+                <div class="content">
+                  <h3>Guidance workshops</h3>
+                  <p>
+                    Roula outlines how guidance workshops have helped her find her path and confidence in her future.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="column-one-third">
+            <a href="case-studies/peer-to-peer.html">
+              <div class="card">
+                <div class="image">
+                  <img src="/assets/images/case-studies/ammar.jpg" alt="Ammar infront of some art">
+                </div>
+                <div class="content">
+                  <h3>Peer-to-peer guidance</h3>
+                  <p>
+                    Ammar explains how the networks built through Mosaik peer-to-peer programmes provide psychological support.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="grid-row centred learn-more">
+          <div class="column-one-whole">
+            <a href="{% link about-us.markdown %}" class="link">Learn more about what we do</a>
+          </div>
+        </div>
+      </section>
+
+      {% include donate.html %}
+
+      {% include divider.html %}
+      
+      <section class="backers">
+        <div class="grid-row heading">
+          <div class="column-one-whole">
+            <h2>Our backers</h2>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="column-one-third osf">
+            <a href="https://www.opensocietyfoundations.org/"><img alt="Open Society Foundations logo" src="/assets/images/logos/logos-05.png"></a>
+          </div>
+          <div class="column-one-third uel">
+            <a href="https://www.uel.ac.uk/"><img alt="University of East London logo" src="/assets/images/logos/logos-07.png"></a>
+          </div>
+          <div class="column-one-third uk-aid">
+            <a href="https://www.ukaiddirect.org/"><img alt="UK Aid Direct logo" src="/assets/images/logos/logos-08.png"></a>
+          </div>
+        </div>
+      </section>
+
+      {% include divider.html %}
+
+      <section class="support" id="support">
+        <div class="grid-row">
+          <div class="column-one-third">
+          </div>
+          <div class="column-one-third">
+            <h2>Join our mailing list</h2>
+            <!-- <p>Joing our monthly newsletter</p> -->
+            <!-- Begin Mailchimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+            	#mc_embed_signup{ clear:left; width:100%;}
+            	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+            	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <style type="text/css">
+            	#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
+            	#mergeRow-gdpr {margin-top: 20px;}
+            	#mergeRow-gdpr fieldset label {font-weight: normal;}
+            	#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
+            </style>
+            <div id="mc_embed_signup">
+            <form action="https://ngo.us13.list-manage.com/subscribe/post?u=d6d058a5b4992f54bb60c4128&amp;id=9632cf9363" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                <label>Enter your email address</label>
+            	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d6d058a5b4992f54bb60c4128_9632cf9363" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="donate-button"></div>
+                </div>
+            </form>
+            </div>
+      </div>
+      <div class="column-one-third">
+      </div>
+    </div>
+  </section>
+
+
+      <!--End mc_embed_signup-->
+
+    </main>
+
+    {% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body id="homepage" class="campaign">
+    {% include header.html %}
+
+    <main>
+      {% include hero.html %}
+
+      <section class="">
+        <div class="grid-row">
+          <div class="column-two-thirds">
+            <p class="medium-text">
+              Just £94 enables a student to complete one of our programs and get a step closer to their dreams.
+            </p>
+            <p class="medium-text">
+              This year we’ve trained 65 young refugees and will enrol 100 more.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {% include divider.html %}
+
+      <section class="">
+        <div class="grid-row heading">
+          <div class="column-one-whole">
+            <h2>Your donation</h2>
+          </div>
+        </div>
+        <div class="grid-row cost-breakdown">
+          <div class="column-one-half">
+            <p>
+              We’re a charity and non-governmental organisation, every donation enables us to help train more future leaders.
+            </p>
+          </div>
+          <div class="column-one-half graphic">
+            <div class="chart"></div>
+            <ul class="key">
+              <li>
+                <strong class="percent blue">90%</strong>
+                <span class="choice">Programmes</span>
+              </li>
+              <li>
+                <strong class="percent pink">10%</strong>
+                <span class="choice">Operational costs</span>
+              </li>
+            </ul>
+          </div>
+          <div class="column-one-half" style="display:block;">
+            <p>
+              Over 90% of donations go to programmes that support refugees, paying for staff to run workshops, local teachers, learning facilities and transport so students can study safely. 10% is used to pay our operational costs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {% include divider.html %}
+
+      <section class="">
+        <div class="grid-row">
+          <div class="column-one-whole">
+            <p class="medium-text emphasis pull-out">
+              We’ve helped more than 100 students so far this year
+            </p>
+          </div>
+          <div class="column-one-third">
+          </div>
+        </div>
+      </section>
+
+      {% include divider.html %}
+      
+      <section class="case-studies">
+        <div class="grid-row visuallyhidden">
+          <div class="column-one-whole">
+            <h2 class="visuallyhidden">Donation tiers</h2>
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="column-one-third tiers">
+            <div class="tier">
+              <p>
+                <span>£18</span>
+                can provide a safe place for a student to learn and connect
+              </p>
+            </div>
+            <div class="tier">
+              <p>
+                <span>£21</span>
+                can train a mentor to provide students with support
+              </p>
+            </div>
+            <div class="tier">
+              <p>
+                <span>£79</span>
+                can train a teacher to run guidance workshops
+              </p>
+            </div>
+            <div class="tier">
+              <p>
+                <span>£94</span>
+                can fund teaching, space and transport costs for a student to complete the full program
+              </p>
+            </div>
+          </div>
+
+          <div class="column-one-whole centred">
+            <br>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="VNR394AR25FWY">
+              <input type="submit" value="Continue to Paypal Giving" name="submit" title="PayPal - The safer, easier way to pay online!" class="paypal-link" alt="Donate with PayPal button" onclick="trackPaypalButton()">
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

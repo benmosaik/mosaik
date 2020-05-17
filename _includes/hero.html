@@ -1,0 +1,13 @@
+<section class="hero {{page.layout}}">
+  <div class="grid-row">
+    <div class="column-one-whole">
+      <h1 class="large-text">
+        {% if page.hero %}
+          {{page.hero}}
+        {% else %}
+          {{page.title}}
+        {%endif%}
+      </h1>
+    </div>
+  </div>
+</section>
